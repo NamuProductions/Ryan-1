@@ -1,0 +1,39 @@
+
+let age = 20;
+let write;
+
+if (age < 18) {
+  write = No puedes entrar.();
+} else if (( age >24) & (age <30)) {
+  write = Aquí tienes un chupito gratis. Entra y diviertete();
+} else if (>30) {
+  write = A donde vas Tutankamon. Tira para casa();
+} else {
+  write = Adelante, que lo pases bien()
+  }
+console.log(write);
+
+console.log(process.argv);
+
+const userAge = process.argv[2];
+let isAMinor = userAge < AGE_OF_ADULTNESS;
+if (isAMinor) {
+    console.log('No Puedes entrar.');
+} else {
+    // age has to be >= 18
+    console.log('Entra y diviértete!');
+}
+
+const ageNoCespedEnElCampo = <18;
+const ageEnjoyLife = 25-30;
+const ageBaston = >30;
+
+
+
+
+// Ejercicio
+// En caso de que el usuario sea menor, se mostrará por pantalla (console.log) "No puedes entrar."
+// En caso de que el usuario sea mayor, si tiene entre 25 y 30 años, se mostrará por pantalla "Aquí tienes un chupito gratis. Entra y diviertete"
+// En caso de que el usuario sea mayor, si tiene más de 30 años, se mostrará por pantalla, "A donde vas tu tutankamon. Tira para casa"
+// en cualquier otro caso se mostrará por pantalla "Adelante, que lo pases bien"
+en guit, Ryan-1
